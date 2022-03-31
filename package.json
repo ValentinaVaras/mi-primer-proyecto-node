@@ -1,8 +1,7 @@
 {
   "name": "mi-primer-proyecto-node",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  
   "scripts": {
     "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,10 +11,11 @@
     "url": "git+https://github.com/ValentinaVaras/mi-primer-proyecto-node.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Valentina Varas",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ValentinaVaras/mi-primer-proyecto-node/issues"
   },
-  "homepage": "https://github.com/ValentinaVaras/mi-primer-proyecto-node#readme"
+  "homepage": "https://github.com/ValentinaVaras/mi-primer-proyecto-node#readme",
+  "description": ""
 }
