@@ -1,10 +1,12 @@
 {
   "name": "mi-primer-proyecto-node",
   "version": "1.0.0",
-  
   "scripts": {
     "start": "node src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint \"./src/**/*.js\"",
+    "lint:fix": "eslint \"./src/**/*.js\" --fix"
   },
   "repository": {
     "type": "git",
@@ -17,5 +19,18 @@
     "url": "https://github.com/ValentinaVaras/mi-primer-proyecto-node/issues"
   },
   "homepage": "https://github.com/ValentinaVaras/mi-primer-proyecto-node#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.3",
+    "hbs": "^4.2.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "nodemon": "^2.0.15"
+  }
 }
